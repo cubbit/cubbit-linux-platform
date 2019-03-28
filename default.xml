@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote fetch="ssh://git@github.com:cubbit" name="cubbit" sync-j="4"/>
-    <remote fetch="ssh://git@github.com:openembedded" name="oe" sync-j="4"/>
-    <remote fetch="ssh://git@github.com:mendersoftware" name="mender" sync-j="4"/>
+    <remote fetch="ssh://git@github.com/cubbit" name="cubbit" sync-j="4"/>
+    <remote fetch="ssh://git@github.com/openembedded" name="oe" sync-j="4"/>
+    <remote fetch="ssh://git@github.com/mendersoftware" name="mender" sync-j="4"/>
     <remote fetch="git://git.yoctoproject.org" name="yocto" sync-j="4" />
     <remote fetch="http://code.ossystems.com.br" name="ossystems" sync-j="4" review="code.ossystems.com.br"/>
 
