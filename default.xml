@@ -6,8 +6,6 @@
     <remote fetch="git://git.yoctoproject.org" name="yocto" sync-j="4" />
     <remote fetch="http://code.ossystems.com.br" name="ossystems" sync-j="4" review="code.ossystems.com.br"/>
 
-    <remote fetch="ssh://git@github.com/kraj" name="llvm" sync-j="4"/>
-
     <default revision="#invalid"/>
 
     <project remote="cubbit" revision="rocko" name="cubbit-linux-config" path="sources/conf/tools"/>
@@ -31,6 +29,4 @@
 
     <project remote="mender" revision="rocko" name="meta-mender" path="sources/meta-mender"/>
     <project remote="cubbit" revision="rocko" name="meta-mender-cell" path="sources/meta-mender-cell"/>
-
-    <project remote="llvm" revision="rocko" name="meta-clang" path="sources/meta-clang"/>
 </manifest>
