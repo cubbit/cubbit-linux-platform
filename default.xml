@@ -4,6 +4,7 @@
     <remote fetch="ssh://git@github.com/openembedded" name="oe" sync-j="4"/>
     <remote fetch="ssh://git@github.com/mendersoftware" name="mender" sync-j="4"/>
     <remote fetch="git://git.yoctoproject.org" name="yocto" sync-j="4" />
+
     <remote fetch="http://code.ossystems.com.br" name="ossystems" sync-j="4" review="code.ossystems.com.br"/>
 
     <default revision="#invalid"/>
@@ -17,16 +18,20 @@
 
     <project remote="oe" revision="1.36" name="bitbake" path="sources/bitbake"/>
 
-    <project remote="cubbit" revision="rocko" name="meta-marvell" path="sources/meta-marvell"/>
-
-    <project remote="ossystems" revision="rocko" name="meta-ossystems-base" path="sources/meta-ossystems-base" />
-    <project remote="cubbit" revision="rocko" name="meta-cubbit-distro" path="sources/meta-cubbit-distro"/>
-
-    <project remote="cubbit" revision="rocko" name="meta-cell" path="sources/meta-cell"/>
+    <project remote="yocto" revision="rocko" name="meta-security" path="sources/meta-security"/>
+    <project remote="yocto" revision="rocko" name="meta-virtualization" path="sources/meta-virtualization"/>
 
     <project remote="oe" revision="rocko" name="meta-openembedded" path="sources/meta-openembedded" />
     <project remote="oe" revision="rocko" name="openembedded-core" path="sources/openembedded-core" />
 
-    <project remote="mender" revision="rocko" name="meta-mender" path="sources/meta-mender"/>
+    <project remote="ossystems" revision="rocko" name="meta-ossystems-base" path="sources/meta-ossystems-base" />
+
+    <project remote="cubbit" revision="rocko" name="meta-marvell" path="sources/meta-marvell"/>
+
+    <project remote="cubbit" revision="rocko" name="meta-cubbit-distro" path="sources/meta-cubbit-distro"/>
+
+    <project remote="cubbit" revision="rocko" name="meta-cell" path="sources/meta-cell"/>
+
     <project remote="cubbit" revision="rocko" name="meta-mender-cell" path="sources/meta-mender-cell"/>
+    <project remote="mender" revision="rocko" name="meta-mender" path="sources/meta-mender"/>
 </manifest>
