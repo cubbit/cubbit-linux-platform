@@ -18,7 +18,6 @@
 
     <project remote="oe" revision="1.36" name="bitbake" path="sources/bitbake"/>
 
-    <project remote="yocto" revision="rocko" name="meta-security" path="sources/meta-security"/>
     <project remote="yocto" revision="rocko" name="meta-virtualization" path="sources/meta-virtualization"/>
 
     <project remote="oe" revision="rocko" name="meta-openembedded" path="sources/meta-openembedded" />
