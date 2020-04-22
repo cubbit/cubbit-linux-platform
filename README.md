@@ -3,7 +3,7 @@
 ## Prerequisites
 
 ```shell
-sudo apt-get install repo diffstat texi2html texinfo subversion chrpath gettext
+sudo apt-get install repo diffstat texi2html texinfo subversion chrpath gettext libncurses5-dev
 ```
 
 ## Setup:
