@@ -36,5 +36,5 @@
     <project remote="cubbit" revision="rocko" name="meta-mender-cell" path="sources/meta-mender-cell"/>
     <project remote="mender" revision="rocko" name="meta-mender" path="sources/meta-mender"/>
 
-    <project remote="balena" revision="v2.48.0" name="meta-balena" path="sources/meta-balena">
+    <project remote="balena" revision="v2.48.0" name="meta-balena" path="sources/meta-balena"/>
 </manifest>
