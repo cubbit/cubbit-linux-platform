@@ -7,7 +7,9 @@
     <remote fetch="http://code.ossystems.com.br" name="ossystems" sync-j="4" review="code.ossystems.com.br"/>
 
     <remote fetch="ssh://git@github.com/mendersoftware" name="mender" sync-j="4"/>
+
     <remote fetch="ssh://git@github.com/balena-os" name="balena" sync-j="4"/>
+    <remote fetch="ssh://git@github.com/meta-rust" name="rust" sync-j="4"/>
 
     <default revision="#invalid"/>
 
@@ -37,4 +39,5 @@
     <project remote="mender" revision="rocko" name="meta-mender" path="sources/meta-mender"/>
 
     <project remote="balena" revision="refs/tags/v2.48.0" name="meta-balena" path="sources/meta-balena"/>
+    <project remote="rust" revision="rocko" name="meta-rust" path="sources/meta-rust"/>
 </manifest>
