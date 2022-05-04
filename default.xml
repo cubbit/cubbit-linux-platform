@@ -12,7 +12,6 @@
 
     <default revision="#invalid"/>
 
-    <project remote="cubbit" revision="rocko" name="cubbit-linux-config" path="sources/conf/tools"/>
     <project remote="cubbit" revision="rocko" name="cubbit-linux-platform" path="sources/conf/repo"/>
 
     <project remote="ossystems" revision="rocko" name="ossystems-yocto-base-scripts" path="sources/base" >
@@ -30,11 +29,7 @@
 
     <project remote="cubbit" revision="rocko" name="meta-marvell" path="sources/meta-marvell"/>
 
-    <project remote="cubbit" revision="rocko" name="meta-cubbit-distro" path="sources/meta-cubbit-distro"/>
-
-    <project remote="cubbit" revision="rocko" name="meta-cell" path="sources/meta-cell"/>
-
-    <project remote="cubbit" revision="rocko" name="meta-mender-cell" path="sources/meta-mender-cell"/>
+    <project remote="cubbit" revision="rocko" name="meta-cubbit" path="sources/meta-cubbit"/>
     <project remote="mender" revision="rocko" name="meta-mender" path="sources/meta-mender"/>
 
     <project remote="rust" revision="rocko" name="meta-rust" path="sources/meta-rust"/>
