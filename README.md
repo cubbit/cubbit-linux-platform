@@ -9,6 +9,6 @@ sudo apt-get install repo diffstat texi2html texinfo subversion chrpath gettext 
 ## Setup:
 
 ```shell
-repo init -u git@github.com:cubbit/cubbit-linux-platform.git -b rocko
+repo init -u git@github.com:cubbit/cubbit-linux-platform.git -b dunfell
 repo sync
 ```

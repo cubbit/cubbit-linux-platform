@@ -10,27 +10,27 @@
 
     <remote fetch="ssh://git@github.com/meta-rust" name="rust" sync-j="4"/>
 
-    <default revision="#invalid"/>
+    <default revision="dunfell"/>
 
-    <project remote="cubbit" revision="rocko" name="cubbit-linux-platform" path="sources/conf/repo"/>
+    <project remote="cubbit" name="cubbit-linux-platform" path="sources/conf/repo"/>
 
-    <project remote="ossystems" revision="rocko" name="ossystems-yocto-base-scripts" path="sources/base" >
+    <project remote="ossystems" name="ossystems-yocto-base-scripts" path="sources/base" >
         <copyfile dest="setup-environment" src="setup-environment"/>
     </project>
 
-    <project remote="oe" revision="1.36" name="bitbake" path="sources/bitbake"/>
+    <project remote="oe" revision="1.46" name="bitbake" path="sources/bitbake"/>
 
-    <project remote="yocto" revision="rocko" name="meta-virtualization" path="sources/meta-virtualization"/>
+    <project remote="yocto" name="meta-virtualization" path="sources/meta-virtualization"/>
 
-    <project remote="oe" revision="rocko" name="meta-openembedded" path="sources/meta-openembedded" />
-    <project remote="oe" revision="rocko" name="openembedded-core" path="sources/openembedded-core" />
+    <project remote="oe" name="meta-openembedded" path="sources/meta-openembedded" />
+    <project remote="oe" name="openembedded-core" path="sources/openembedded-core" />
 
-    <project remote="ossystems" revision="rocko" name="meta-ossystems-base" path="sources/meta-ossystems-base" />
+    <project remote="ossystems" name="meta-ossystems-base" path="sources/meta-ossystems-base" />
 
-    <project remote="cubbit" revision="rocko" name="meta-marvell" path="sources/meta-marvell"/>
+    <project remote="cubbit" name="meta-marvell" path="sources/meta-marvell"/>
 
-    <project remote="cubbit" revision="rocko" name="meta-cubbit" path="sources/meta-cubbit"/>
-    <project remote="mender" revision="rocko" name="meta-mender" path="sources/meta-mender"/>
+    <project remote="cubbit" name="meta-cubbit" path="sources/meta-cubbit"/>
+    <project remote="mender" name="meta-mender" path="sources/meta-mender"/>
 
-    <project remote="rust" revision="rocko" name="meta-rust" path="sources/meta-rust"/>
+    <project remote="rust" revision="master" name="meta-rust" path="sources/meta-rust"/>
 </manifest>
