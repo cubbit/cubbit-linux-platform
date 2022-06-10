@@ -27,9 +27,10 @@
 
     <project remote="ossystems" name="meta-ossystems-base" path="sources/meta-ossystems-base" />
 
-    <project remote="cubbit" name="meta-marvell" path="sources/meta-marvell"/>
-
+    <project remote="cubbit" name="meta-espressobin" path="sources/meta-espressobin"/>
+    <project remote="cubbit" name="meta-mender-espressobin" path="sources/meta-mender-espressobin"/>
     <project remote="cubbit" name="meta-cubbit" path="sources/meta-cubbit"/>
+
     <project remote="mender" name="meta-mender" path="sources/meta-mender"/>
 
     <project remote="rust" revision="master" name="meta-rust" path="sources/meta-rust"/>
